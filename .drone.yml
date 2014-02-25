@@ -1,2 +1,5 @@
 image: python2.7
+script:
+  - pip install unittest2 nose
+  - nosetests
 
