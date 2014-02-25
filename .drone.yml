@@ -1,5 +1,5 @@
 image: python2.7
 script:
-  - pip install unittest2 nose
+  - pip install unittest2 nose httplib2 oauth2client protobuf pycrypto pyopenssl pytz
   - nosetests
 
